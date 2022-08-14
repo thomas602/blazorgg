@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 import AxiosTable from "./Tables/AxiosTable";
 
-// Url base del backend
+// Url base del backend para los endpoints
 const baseURL = "https://blazorgg-backend.azurewebsites.net/api/Players";
 
 function App() {
