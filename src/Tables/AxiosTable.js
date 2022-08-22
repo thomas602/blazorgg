@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import MUIDataTable from "mui-datatables";
 import axios from "axios";
 import AccountWithProfileIcon from "./AccountWithProfileIcon";
+import styles from "./AxiosTable.module.css";
 
 const AxiosTable = () => {
   //1 - Configuro los hooks
@@ -26,7 +27,6 @@ const AxiosTable = () => {
       profileIconUrl: element.profileIconUrl,
     };
   });
-  console.log(players);
   const columns = [
     {
       name: "ranking",
@@ -89,6 +89,7 @@ const AxiosTable = () => {
       data={players}
       columns={columns}
       options={options}
+      className={styles.center}
     ></MUIDataTable>
   );
 };

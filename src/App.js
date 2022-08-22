@@ -1,21 +1,9 @@
 import "./App.css";
-import axios from "axios";
 import React from "react";
-import AxiosTable from "./Tables/AxiosTable";
-
-// Url base del backend para los endpoints
-const baseURL = "https://blazorgg-backend.azurewebsites.net/api/Players";
+import Main from "./Components/Main";
 
 function App() {
-  const [post, setPost] = React.useState(null);
-  React.useEffect(() => {
-    axios.get(baseURL).then((response) => {
-      setPost(response.data);
-    });
-  }, []);
-  if (!post) return null;
-
-  return <AxiosTable />;
+  return <Main />;
 }
 
 export default App;

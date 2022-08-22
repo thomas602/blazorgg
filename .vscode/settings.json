@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/03737429-bac3-4e4a-9e00-6b360676da58/microsoft.web/sites/subscriptions/03737429-bac3-4e4a-9e00-6b360676da58/resourceGroups/BlazorGG-Front_group/providers/Microsoft.Web/sites/BlazorGG-Front",
+  "appService.deploySubpath": "."
+}

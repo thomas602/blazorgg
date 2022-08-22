@@ -1,0 +1,12 @@
+.btn {
+  display: grid;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 5%;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  color: blue;
+}
